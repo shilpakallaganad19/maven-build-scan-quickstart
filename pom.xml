@@ -33,5 +33,12 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Shilpa-Art-latest-releases</name>
+        <url>http://mill.jfrog.info:12868/artifactory/test-libs-release</url>
+    </repository>
+</distributionManagement>
 
 </project>
